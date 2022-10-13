@@ -1,6 +1,6 @@
 <template>
   <div class="mainFooter">
-    <div class="">星球</div>
+    <div class="menuIcon">星球</div>
   </div>
 </template>
 <script></script>
