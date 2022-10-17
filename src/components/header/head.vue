@@ -12,7 +12,7 @@ export default {
   name: "head",
   data() {
     return {
-      headTitle: "首页"
+      headTitle: "首页1"
     };
   },
   methods: {
