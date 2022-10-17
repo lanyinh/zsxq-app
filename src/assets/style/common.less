@@ -23,4 +23,31 @@
 .mainFooter{
     background-color: #fff;
     z-index: 999;
+    bottom: 0;
+        position: absolute;
+        width: 100%;
+        height: 65px;
+        padding: 10px 0;
+
+    .footer-item{
+        width: 25%;
+        display: inline-block;
+        float: left;
+        text-align: center;
+
+        .menuIcon{
+            height: 25px;
+        }
+        .menuText{
+            font-size: 10px;
+            color: #7c7c7c;
+        }
+
+        &.fonter-Item-active {
+            .menuText {
+                color: #16b998;
+            }
+        }
+    }
+    
 }
